@@ -1,59 +1,516 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr" class="no-js">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Justin Swann</title>
-  <meta name="description" content="The personal website of Justin Swann.">
-  <style>
-    :root {
-      --bg: #ffffff;
-      --fg: #1a1a1a;
-      --muted: #666666;
-      --accent: #2a5db0;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #121212;
-        --fg: #f0f0f0;
-        --muted: #a0a0a0;
-        --accent: #7aa7ff;
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Justin Swann | BI &amp; Data Analytics Product Manager</title>
+  <meta name="description" content="Justin Swann is a BI &amp; Data Analytics Product Manager and IT Business Analyst at CoVolt Power, based in Fort Worth, Texas. In 2026 he built a Snowflake data warehouse and BI software factory from the ground up, shipped production Power BI dashboards across the organization, and led AI best-practice and tooling efforts.">
+  <meta name="author" content="Justin Swann">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <meta name="theme-color" content="#070b14">
+  <meta name="color-scheme" content="dark">
+  <link rel="canonical" href="https://www.justinswann.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Justin Swann">
+  <meta property="og:title" content="Justin Swann | BI &amp; Data Analytics Product Manager">
+  <meta property="og:description" content="Building data platforms, BI products, and production AI tooling at CoVolt Power. Portfolio, 2026 highlights, and contact.">
+  <meta property="og:url" content="https://www.justinswann.com/">
+  <meta property="og:image" content="https://www.justinswann.com/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Justin Swann, BI and Data Analytics Product Manager, on a quantum-themed background">
+  <meta property="og:locale" content="en_US">
+  <meta property="profile:first_name" content="Justin">
+  <meta property="profile:last_name" content="Swann">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Justin Swann | BI &amp; Data Analytics Product Manager">
+  <meta name="twitter:description" content="Building data platforms, BI products, and production AI tooling at CoVolt Power.">
+  <meta name="twitter:image" content="https://www.justinswann.com/assets/img/og-image.png">
+
+  <!-- Icons -->
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap">
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.justinswann.com/#person",
+        "name": "Justin Swann",
+        "givenName": "Justin",
+        "familyName": "Swann",
+        "url": "https://www.justinswann.com/",
+        "image": "https://www.justinswann.com/assets/img/og-image.png",
+        "jobTitle": ["BI & Data Analytics Product Manager", "IT Business Analyst"],
+        "description": "BI and Data Analytics Product Manager and IT Business Analyst with over a decade in IT. Builds Snowflake data warehouses, Power BI products, and production AI tooling.",
+        "email": "mailto:justin.swann.business@gmail.com",
+        "address": { "@type": "PostalAddress", "addressLocality": "Fort Worth", "addressRegion": "TX", "addressCountry": "US" },
+        "alumniOf": [
+          { "@type": "CollegeOrUniversity", "name": "Tarrant County College" },
+          { "@type": "CollegeOrUniversity", "name": "University of North Texas" },
+          { "@type": "CollegeOrUniversity", "name": "North Central Texas College" }
+        ],
+        "memberOf": { "@type": "Organization", "name": "Phi Theta Kappa Honor Society" },
+        "hasCredential": [
+          { "@type": "EducationalOccupationalCredential", "name": "Product Management: Transforming Opportunities into Great Products", "credentialCategory": "certificate", "recognizedBy": { "@type": "Organization", "name": "Stanford Online" } },
+          { "@type": "EducationalOccupationalCredential", "name": "Learn SQL", "credentialCategory": "certificate", "recognizedBy": { "@type": "Organization", "name": "Codecademy" } }
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "CoVolt Power",
+          "url": "https://www.covolt.com/"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/justin-swann",
+          "https://github.com/justinswann-site"
+        ],
+        "knowsAbout": [
+          "Business Intelligence",
+          "Data Analytics",
+          "Snowflake",
+          "Microsoft Power BI",
+          "SQL",
+          "Data Warehousing",
+          "Business Analysis",
+          "ERP Implementation",
+          "ELT Pipelines",
+          "Data Management",
+          "Product Management",
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Claude Code",
+          "Unreal Engine"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.justinswann.com/#website",
+        "url": "https://www.justinswann.com/",
+        "name": "Justin Swann",
+        "description": "Portfolio and resume of Justin Swann, BI and Data Analytics Product Manager.",
+        "inLanguage": "en-US",
+        "about": { "@id": "https://www.justinswann.com/#person" }
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://www.justinswann.com/#profilepage",
+        "url": "https://www.justinswann.com/",
+        "name": "Justin Swann | BI & Data Analytics Product Manager",
+        "mainEntity": { "@id": "https://www.justinswann.com/#person" },
+        "isPartOf": { "@id": "https://www.justinswann.com/#website" }
       }
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--fg);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.6;
-    }
-    main {
-      max-width: 640px;
-      margin: 0 auto;
-      padding: 15vh 16px 64px;
-    }
-    h1 {
-      font-size: 2.25rem;
-      margin: 0 0 0.5rem;
-      letter-spacing: -0.02em;
-    }
-    p { margin: 0 0 1rem; }
-    .muted { color: var(--muted); }
-    a { color: var(--accent); }
-    footer {
-      margin-top: 4rem;
-      font-size: 0.875rem;
-      color: var(--muted);
-    }
-  </style>
+    ]
+  }
+  </script>
 </head>
 <body>
-  <main>
-    <h1>Justin Swann</h1>
-    <p class="muted">This site is under construction.</p>
-    <p>A new home for my work is on the way. Check back soon.</p>
-    <footer>&copy; 2026 Justin Swann</footer>
-  </main>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Quantum particle field (decorative) -->
+  <canvas id="qfield" class="qfield" aria-hidden="true"></canvas>
+
+  <div class="app" id="top">
+    <!-- ===== Sidebar (desktop app chrome) ===== -->
+    <aside class="sidebar" aria-label="Site navigation">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" width="40" height="40" focusable="false">
+            <circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".5"/>
+            <ellipse cx="32" cy="32" rx="28" ry="10" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".5"/>
+            <line x1="32" y1="32" x2="46" y2="14" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="46" cy="14" r="3.5" fill="var(--accent)"/>
+            <circle cx="32" cy="32" r="2.5" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>Justin Swann</strong>
+          <small>BI · Data · AI</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Sections">
+        <a href="#top" class="nav-link is-active" data-nav="top"><span class="nav-idx">00</span>Overview</a>
+        <a href="#highlights" class="nav-link" data-nav="highlights"><span class="nav-idx">01</span>2026 Highlights</a>
+        <a href="#experience" class="nav-link" data-nav="experience"><span class="nav-idx">02</span>Experience</a>
+        <a href="#skills" class="nav-link" data-nav="skills"><span class="nav-idx">03</span>Skills</a>
+        <a href="#learning" class="nav-link" data-nav="learning"><span class="nav-idx">04</span>Learning</a>
+        <a href="#projects" class="nav-link" data-nav="projects"><span class="nav-idx">05</span>Side Projects</a>
+        <a href="#contact" class="nav-link" data-nav="contact"><span class="nav-idx">06</span>Contact</a>
+      </nav>
+
+      <div class="sidebar-foot">
+        <div class="status"><span class="status-dot" aria-hidden="true"></span>CoVolt Power · Product &amp; Analytics</div>
+        <div class="mono dim" id="state-readout" aria-live="polite">|ψ⟩ = α|0⟩ + β|1⟩</div>
+        <label class="motion-toggle">
+          <input type="checkbox" id="motion-toggle"> <span>Reduce motion</span>
+        </label>
+      </div>
+    </aside>
+
+    <!-- ===== Main column ===== -->
+    <div class="main-col">
+      <header class="topbar">
+        <div class="crumb mono" aria-hidden="true">justinswann.com <span class="crumb-sep">/</span> <span id="crumb">overview</span></div>
+        <div class="topbar-actions">
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/justin-swann" target="_blank" rel="noopener me">LinkedIn</a>
+          <a class="btn btn-ghost" href="https://github.com/justinswann-site" target="_blank" rel="noopener me">GitHub</a>
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+        </div>
+      </header>
+
+      <main id="main">
+        <!-- ===== Hero / Business card ===== -->
+        <section id="hero" class="section hero" aria-labelledby="hero-title">
+          <div class="card">
+            <div class="card-visual">
+              <canvas id="bloch" class="bloch" width="320" height="320" role="img" aria-label="Interactive Bloch sphere showing a qubit state. Move the pointer to rotate the state, click to measure."></canvas>
+              <div class="bloch-readout mono" id="bloch-readout" aria-live="polite">superposition · hover to steer · click to measure</div>
+            </div>
+            <div class="card-body">
+              <p class="eyebrow mono">BI &amp; Data Analytics · Product Manager<span class="eyebrow-more"> · Analyst</span></p>
+              <h1 id="hero-title">Justin Swann</h1>
+              <p class="lede-short">Data platforms, BI products, and production AI tooling at <strong>CoVolt Power</strong>.</p>
+              <p class="lede">Over a decade in IT, from running UPS operations to implementing enterprise applications, now building the data and BI products at <strong>CoVolt Power</strong>: a Snowflake warehouse and BI software factory stood up from zero, executive dashboards in production, and AI tooling that the team actually uses.</p>
+              <ul class="facts" aria-label="Quick facts">
+                <li><span class="fact-k mono">role</span><span>BI Product Manager · IT Business Analyst</span></li>
+                <li><span class="fact-k mono">org</span><span>CoVolt Power (formerly Signal Energy)</span></li>
+                <li><span class="fact-k mono">base</span><span>Fort Worth, Texas · Remote</span></li>
+                <li class="fact-more"><span class="fact-k mono">focus</span><span>Snowflake · Power BI · Data management · Applied AI</span></li>
+              </ul>
+              <div class="cta-row">
+                <a class="btn btn-primary" href="#highlights">See 2026 highlights</a>
+                <a class="btn btn-ghost" href="mailto:justin.swann.business@gmail.com" aria-label="Email Justin">
+                  <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+                  <span class="btn-label">Email</span>
+                </a>
+                <a class="btn btn-ghost" href="https://www.linkedin.com/in/justin-swann" target="_blank" rel="noopener me" aria-label="Justin on LinkedIn">
+                  <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+                  <span class="btn-label">LinkedIn</span>
+                </a>
+                <a class="btn btn-ghost" href="https://github.com/justinswann-site" target="_blank" rel="noopener me" aria-label="Justin on GitHub">
+                  <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.97 3.22 9.19 7.69 10.68.56.1.77-.24.77-.54v-1.9c-3.13.68-3.79-1.5-3.79-1.5-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.68.08-.68 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.63 1.22 3.27.93.1-.73.39-1.22.71-1.5-2.5-.28-5.13-1.25-5.13-5.56 0-1.23.44-2.23 1.16-3.02-.12-.28-.5-1.43.11-2.98 0 0 .95-.3 3.1 1.15a10.8 10.8 0 0 1 5.65 0c2.15-1.46 3.1-1.15 3.1-1.15.61 1.55.23 2.7.11 2.98.72.79 1.16 1.79 1.16 3.02 0 4.32-2.64 5.27-5.15 5.55.4.35.76 1.03.76 2.08v3.08c0 .3.2.65.78.54 4.46-1.49 7.68-5.71 7.68-10.68C23.25 5.48 18.27.5 12 .5z"/></svg>
+                  <span class="btn-label">GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <p class="scroll-hint mono" aria-hidden="true">scroll ↓</p>
+        </section>
+
+        <!-- ===== 2026 Highlights as a quantum circuit ===== -->
+        <section id="highlights" class="section" aria-labelledby="highlights-title">
+          <header class="section-head">
+            <p class="eyebrow mono">01 · 2026 highlights</p>
+            <h2 id="highlights-title">One year, three entangled tracks</h2>
+            <p class="section-intro">Read it like a quantum circuit. Each wire is a track, each gate is a shipped outcome, and the CNOT shows where the data platform made the AI work possible. Select a gate for details.</p>
+          </header>
+
+          <div class="circuit" id="circuit" data-year="2026">
+            <!-- Rendered by assets/js/circuit.js. Static fallback list below is the SEO/no-JS content. -->
+          </div>
+
+          <div class="gate-detail" id="gate-detail" aria-live="polite">
+            <div class="gate-detail-inner">
+              <p class="mono dim">select a gate ↑</p>
+            </div>
+          </div>
+
+          <ol class="milestones" id="milestones">
+            <li data-wire="0" data-q="1" data-glyph="H" data-tag="Data platform">
+              <h3>Built a Snowflake data warehouse from the ground up</h3>
+              <p>Designed and delivered CoVolt Power's enterprise data warehouse on Snowflake, starting from an empty account: architecture, environments, security model, ingestion, and modeled layers ready for BI consumption.</p>
+            </li>
+            <li data-wire="0" data-q="2" data-glyph="F" data-tag="Data platform">
+              <h3>Stood up a BI software factory</h3>
+              <p>Established the delivery system for analytics as a product: source control, environments, review and release process, standards, and templates so dashboards and reports ship repeatably instead of one-off.</p>
+            </li>
+            <li data-wire="0" data-q="2" data-glyph="M" data-tag="Delivery">
+              <h3>Released dashboards and reports to Production</h3>
+              <p>Shipped multiple production dashboards and reports for the Executive Leadership Team and for teams across the organization, moving leadership reporting from manual assembly to governed, refreshing analytics.</p>
+            </li>
+            <li data-wire="0" data-q="3" data-glyph="K" data-tag="Data management">
+              <h3>Launched an org-wide Data Management knowledge site</h3>
+              <p>Created the single front door for data at CoVolt: release news for every dashboard and report, links to BI guidance and standards, and how-to content so the organization can self-serve.</p>
+            </li>
+            <li data-wire="1" data-q="3" data-glyph="A" data-tag="Applied AI">
+              <h3>Guided AI best practices, workshops, and policy</h3>
+              <p>In Q3 and Q4 the focus shifted to AI. Participated in and provided guidance for CoVolt's AI best practices, ran and contributed to workshops, and helped shape the policies that govern how the company uses AI.</p>
+            </li>
+            <li data-wire="1" data-q="4" data-glyph="X" data-tag="Applied AI">
+              <h3>Implemented production-level AI tools</h3>
+              <p>Put AI to work in production for development, analysis, and automation: tooling that accelerates building data products, speeds up analysis, and removes repetitive work from the team's day.</p>
+            </li>
+            <li data-wire="2" data-q="1" data-glyph="P" data-tag="Credential">
+              <h3>Certified in Product Management by Stanford Online</h3>
+              <p>Completed Stanford Online's "Product Management: Transforming Opportunities into Great Products" in January 2026. The frameworks went straight into the 2026 data and BI roadmap.</p>
+            </li>
+            <li data-wire="2" data-q="1" data-glyph="Φ" data-tag="Honors">
+              <h3>Inducted into Phi Theta Kappa at Tarrant County College</h3>
+              <p>Accepted into the Phi Theta Kappa Honor Society while enrolled at Tarrant County College, where I'm also active in the STEM Club and preparing to transfer to a university in 2027.</p>
+            </li>
+            <li data-wire="2" data-q="2" data-glyph="∫" data-tag="Learning">
+              <h3>Calculus at TCC, neural networks on my own time</h3>
+              <p>Taking Calculus at Tarrant County College to rebuild the math foundation, and self-studying neural networks and machine learning in parallel so the AI work is grounded in how the models actually learn.</p>
+            </li>
+            <li data-wire="2" data-q="3" data-glyph="U" data-tag="Building">
+              <h3>Shipped several Unreal Engine game demos with Claude Code</h3>
+              <p>Using Claude Code as a development partner in personal time, built multiple playable game demos in Unreal Engine, treating each one as a sprint to learn the engine and agentic workflows.</p>
+            </li>
+            <li data-wire="2" data-q="4" data-glyph="S" data-tag="Building" data-wip="true">
+              <h3>Steam release in progress</h3>
+              <p>An upcoming Steam title is in active development. Work in progress; details to follow at release.</p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- ===== Experience ===== -->
+        <section id="experience" class="section" aria-labelledby="experience-title">
+          <header class="section-head">
+            <p class="eyebrow mono">02 · experience</p>
+            <h2 id="experience-title">Work history</h2>
+            <p class="section-intro">Over a decade in IT: operations management at UPS, enterprise application and infrastructure projects at MHMR and c1Advantage, and now analytics product work at CoVolt Power.</p>
+          </header>
+
+          <ol class="timeline">
+            <li class="tl-item is-current">
+              <div class="tl-meta mono">Feb 2023 → present</div>
+              <div class="tl-body panel">
+                <h3>IT Business Analyst · BI Product Manager <span class="at">· CoVolt Power</span></h3>
+                <p class="dim">Texas · Remote. CoVolt Power is the utility-scale solar, battery storage, and high-voltage transmission EPC formed in 2026 from Signal Energy and Applied High Voltage.</p>
+                <ul class="bullets">
+                  <li>Own the data and BI product roadmap: Snowflake warehouse, BI software factory, and the org-wide Data Management knowledge site (see 2026 highlights).</li>
+                  <li>Designed, prototyped, and developed the Power BI dashboard that reports key operations and financial metrics to the executive leadership team and the board of investors.</li>
+                  <li>Partnered with the data management team to build new SQL database structures for the Power BI initiative, with the analysis and documentation that grew the data warehouse.</li>
+                  <li>Built a Power BI analysis dashboard for a large-scale migration project, including custom data models developed from the ground up.</li>
+                  <li>Led technical documentation for ERP system migrations: detailed data-field mapping plus UI and data-structure design specifications for customization projects.</li>
+                  <li>Drove requirements, ETL, test plans, and UAT scripts for an estimation-software implementation; supported a major ERP implementation through the Finance and Accounting phases.</li>
+                  <li>Authored the IT PMO's internal process documentation and templates, and built a Smartsheet Warranty Claim Tracking System that replaced email-based tracking.</li>
+                  <li>Lead applied AI for the function: best practices, workshops, policy input, and production AI tools for development, analysis, and automation.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="tl-item">
+              <div class="tl-meta mono">Sep 2022 → Feb 2023</div>
+              <div class="tl-body panel">
+                <h3>IT Project Coordinator <span class="at">· CoVolt Power (Signal Energy)</span></h3>
+                <p class="dim">Remote</p>
+                <ul class="bullets">
+                  <li>Supported the IT Enterprise Applications team on cross-functional projects: schedules, financials, and milestone and SDLC control through the full development and deployment life cycle.</li>
+                  <li>Managed issues, risks, and change requests to keep delivery on time, and contributed to process-improvement work including the Business Transformation Office.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="tl-item">
+              <div class="tl-meta mono">Feb 2022 → Sep 2022</div>
+              <div class="tl-body panel">
+                <h3>Associate Project Manager <span class="at">· c1Advantage</span></h3>
+                <p class="dim">Remote</p>
+                <ul class="bullets">
+                  <li>Managed the implementation of estimation software valued at over $300,000, from stakeholder requirements through vendor communication and a two-month hypercare period after launch.</li>
+                  <li>Took over a CRM implementation within an ERP valued at over $450,000 and closed out open items that were five months overdue by building a vendor-management framework.</li>
+                  <li>Validated the migration of almost 1,000,000 files from cloud storage to Procore alongside IT Infrastructure Operations.</li>
+                  <li>Transitioned Power BI and Power Apps resources to service accounts and laid the framework for a future data warehouse.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="tl-item">
+              <div class="tl-meta mono">Jun 2021 → Feb 2022</div>
+              <div class="tl-body panel">
+                <h3>IT Project Coordinator <span class="at">· MHMR of Tarrant County</span></h3>
+                <p class="dim">Contract · Fort Worth, Texas</p>
+                <ul class="bullets">
+                  <li>Ran a PC Refresh project that issued new hardware to almost 2,000 employees, created the framework for a new IT CMDB, and implemented software delivery through Microsoft SCCM and Intune.</li>
+                  <li>Revived a stalled SharePoint migration through user training and gap analysis, moving over 15 terabytes from legacy network storage to Office 365.</li>
+                  <li>Participated in the RFQ and RFP process for an employee time-study, location-tracking, and appointment-management system.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="tl-item">
+              <div class="tl-meta mono">Sep 2015 → Jun 2021</div>
+              <div class="tl-body panel">
+                <h3>Package Dispatch Supervisor · Package Center Supervisor <span class="at">· UPS</span></h3>
+                <p class="dim">Fort Worth, Texas</p>
+                <ul class="bullets">
+                  <li>As Dispatch Supervisor, worked with regional and district management to set daily center objectives, balancing route mileage, hours, deliveries, and package count per driver while resolving the day's problems on the spot.</li>
+                  <li>As Center Supervisor, oversaw the logistics and safety of more than 50 drivers daily and solved technical and customer problems that needed investigation and troubleshooting.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="tl-item">
+              <div class="tl-meta mono">May 2009 → Sep 2015</div>
+              <div class="tl-body panel">
+                <h3>Computer Technician <span class="at">· Self-employed</span></h3>
+                <p class="dim">Flower Mound, Texas</p>
+                <ul class="bullets">
+                  <li>Built computers and small home and office networks for clients, and handled repairs from OS reinstalls and drive replacements to virus removal.</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </section>
+
+        <!-- ===== Skills ===== -->
+        <section id="skills" class="section" aria-labelledby="skills-title">
+          <header class="section-head">
+            <p class="eyebrow mono">03 · skills</p>
+            <h2 id="skills-title">What I work with</h2>
+          </header>
+          <div class="skill-grid">
+            <div class="panel skill-group">
+              <h3>Data platform</h3>
+              <ul class="chips">
+                <li>Snowflake</li><li>SQL</li><li>Data warehouse design</li><li>ELT / ETL pipelines</li><li>Data modeling</li><li>Environments &amp; release management</li>
+              </ul>
+            </div>
+            <div class="panel skill-group">
+              <h3>BI &amp; analytics</h3>
+              <ul class="chips">
+                <li>Microsoft Power BI</li><li>Executive &amp; board reporting</li><li>Dashboard &amp; report delivery</li><li>BI standards &amp; templates</li><li>Data management &amp; governance</li><li>Microsoft Excel</li>
+              </ul>
+            </div>
+            <div class="panel skill-group">
+              <h3>Product &amp; business analysis</h3>
+              <ul class="chips">
+                <li>Product management</li><li>IT business analysis</li><li>Requirements &amp; documentation</li><li>SDLC</li><li>UAT &amp; test planning</li><li>Process improvement</li><li>Facilitation</li>
+              </ul>
+            </div>
+            <div class="panel skill-group">
+              <h3>Enterprise applications</h3>
+              <ul class="chips">
+                <li>ERP implementation</li><li>Acumatica ERP</li><li>Viewpoint Vista</li><li>Procore</li><li>B2W Estimate</li><li>Smartsheet</li><li>SharePoint / Microsoft 365</li>
+              </ul>
+            </div>
+            <div class="panel skill-group">
+              <h3>Applied AI</h3>
+              <ul class="chips">
+                <li>Claude Code</li><li>Large language models</li><li>Prompt engineering</li><li>AI policy &amp; best practices</li><li>Agentic development workflows</li><li>Neural networks &amp; ML (studying)</li>
+              </ul>
+            </div>
+            <div class="panel skill-group">
+              <h3>Building &amp; infrastructure</h3>
+              <ul class="chips">
+                <li>Unreal Engine</li><li>Game prototyping</li><li>Steam publishing (WIP)</li><li>IT troubleshooting</li><li>Networking &amp; hardware</li><li>SCCM / Intune</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== Learning ===== -->
+        <section id="learning" class="section" aria-labelledby="learning-title">
+          <header class="section-head">
+            <p class="eyebrow mono">04 · learning</p>
+            <h2 id="learning-title">Education &amp; credentials</h2>
+          </header>
+          <div class="two-col">
+            <div class="panel">
+              <h3>Tarrant County College</h3>
+              <p class="mono dim">Jan 2026 → Dec 2027 · in progress</p>
+              <p>Currently taking Calculus. Phi Theta Kappa Honor Society member and STEM Club participant, preparing to transfer to a university in 2027.</p>
+            </div>
+            <div class="panel">
+              <h3>University of North Texas</h3>
+              <p class="mono dim">2013 → 2014</p>
+              <p>Studied Computer Science and Engineering.</p>
+            </div>
+            <div class="panel">
+              <h3>North Central Texas College</h3>
+              <p class="mono dim">2010 → 2011</p>
+              <p>Early coursework before UNT.</p>
+            </div>
+            <div class="panel">
+              <h3>Neural networks &amp; machine learning</h3>
+              <p class="mono dim">2026 · self-directed, ongoing</p>
+              <p>Independent study of how neural networks learn: gradient descent, backpropagation, architectures, and the practical trade-offs of putting models to work in a business.</p>
+            </div>
+            <div class="panel skill-group" style="grid-column: 1 / -1;">
+              <h3>Certifications</h3>
+              <ul class="creds">
+                <li><span>Product Management: Transforming Opportunities into Great Products</span><span class="mono dim">Stanford Online · Jan 2026</span></li>
+                <li><span>Construction Management: Planning and Scheduling</span><span class="mono dim">LinkedIn Learning · Aug 2023</span></li>
+                <li><span>Learn SQL</span><span class="mono dim">Codecademy · May 2023</span></li>
+                <li><span>Business Analysis Foundations</span><span class="mono dim">LinkedIn Learning · Mar 2023</span></li>
+                <li><span>Project Management Foundations</span><span class="mono dim">LinkedIn Learning · Mar 2022</span></li>
+                <li><span>Smartsheet Essential Training</span><span class="mono dim">LinkedIn Learning · Feb 2022</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== Side projects ===== -->
+        <section id="projects" class="section" aria-labelledby="projects-title">
+          <header class="section-head">
+            <p class="eyebrow mono">05 · side projects</p>
+            <h2 id="projects-title">After hours</h2>
+          </header>
+          <div class="two-col">
+            <article class="panel project">
+              <p class="mono dim">Unreal Engine · Claude Code</p>
+              <h3>Game demos</h3>
+              <p>Several playable demos built in Unreal Engine with Claude Code as a pair programmer. Each demo is a bounded experiment: a mechanic, a system, a feel, done end to end.</p>
+            </article>
+            <article class="panel project is-wip">
+              <p class="mono dim">Steam · work in progress</p>
+              <h3>Upcoming Steam release</h3>
+              <p>A full title in development for Steam. Details are under wraps until the store page goes live.</p>
+              <span class="wip-badge mono">WIP</span>
+            </article>
+            <article class="panel project">
+              <p class="mono dim">This site</p>
+              <h3>justinswann.com</h3>
+              <p>Hand-coded, no framework, hosted on GitHub Pages. Canvas particle field with superposition and collapse, an interactive Bloch sphere, and a quantum-circuit timeline.</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- ===== Contact ===== -->
+        <section id="contact" class="section" aria-labelledby="contact-title">
+          <header class="section-head">
+            <p class="eyebrow mono">06 · contact</p>
+            <h2 id="contact-title">Let's talk data, BI, or AI</h2>
+            <p class="section-intro">Open to conversations about analytics product leadership, data platforms, and applied AI. Based in Fort Worth, Texas, working remotely.</p>
+          </header>
+          <div class="contact-row">
+            <a class="btn btn-primary btn-lg" href="mailto:justin.swann.business@gmail.com">justin.swann.business@gmail.com</a>
+            <a class="btn btn-ghost btn-lg" href="https://www.linkedin.com/in/justin-swann" target="_blank" rel="noopener me">Message me on LinkedIn</a>
+            <a class="btn btn-ghost btn-lg" href="https://github.com/justinswann-site" target="_blank" rel="noopener me">Follow on GitHub</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>&copy; <span id="year">2026</span> Justin Swann</span>
+        <span class="mono dim">built by hand · hosted on GitHub Pages</span>
+      </footer>
+    </div>
+  </div>
+
+  <!-- ===== Mobile tab bar ===== -->
+  <nav class="tabbar" aria-label="Quick navigation">
+    <a href="#top" data-nav="top" class="is-active" aria-label="Card"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="9" cy="12" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13 10h5M13 14h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span>Card</span></a>
+    <a href="#highlights" data-nav="highlights" aria-label="2026 highlights"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8h18M3 16h18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><rect x="8" y="5" width="6" height="6" rx="1" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="16" r="2" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>2026</span></a>
+    <a href="#experience" data-nav="experience" aria-label="Experience"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>Work</span></a>
+    <a href="#contact" data-nav="contact" aria-label="Contact"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span>Contact</span></a>
+  </nav>
+
+  <script src="/assets/js/quantum.js" defer></script>
+  <script src="/assets/js/bloch.js" defer></script>
+  <script src="/assets/js/circuit.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
 </body>
 </html>
